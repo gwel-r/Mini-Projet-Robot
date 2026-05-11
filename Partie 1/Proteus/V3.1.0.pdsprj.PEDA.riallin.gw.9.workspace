@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activeWindow="0">
+  <PLACEMENT>01d9d0cb00030000fffffffffffffff800000690000003f2000000700000006900000645000003f10000000002000000069000000000000000170000068f000003f1</PLACEMENT>
+  <WINDOW module="ISIS" type="default" index="0" mode="00050a01"/>
+  <WINDOW module="VSMSTUDIO" type="default" index="0" mode="00050a01">
+   <STATE NAME="EDIT" VALUE="AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAFAAcgBvAGoAZQBjAHQAcwEAAAAA/////wAAASwA////+wAAABQAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAGQA////AAAAAwAAAAAAAAAA/AEAAAAB/AAAAAD/////AAAAYgD////6AAAAAAEAAAAD+wAAACAATwB1AHQAcAB1AHQARABvAGMAawBXAGkAZABnAGUAdAEAAAAA/////wAAAGIA////+wAAABAAVABlAHIAbQBpAG4AYQBsAAAAAAD/////AAABSgD////7AAAAIgBCAHIAZQBhAGsAcABvAGkAbgB0AHMAVwBpAG4AZABvAHcAAAAAAP////8AAABiAP///wAAAAAAAAAAAAAAAQAAAAIAAAAIAAAAAvwAAAAA"/>
+   <TERMINAL>
+    <SERIAL BAUD="9600" STOPBITS="1" PORT="COM2" PARITY="0" DATABITS="8"/>
+    <CONSOLE>
+     <ITEM name="AUTOECHO">0</ITEM>
+     <ITEM name="ENCODING">System</ITEM>
+     <ITEM name="HEXMODE">0</ITEM>
+     <ITEM name="LINEMODE">0</ITEM>
+     <ITEM name="XONOFF">0</ITEM>
+    </CONSOLE>
+   </TERMINAL>
+   <PROJECT ACTIVE="true" NAME="ATmega328P" CONFIGURATION="Debug">
+    <PROGRAMMER NAME="AVRDUDE" INTERFACE="Arduino (ATmega328)">
+     <PROPERTY NAME="PORT" VALUE="COM3"/>
+     <PROPERTY NAME="PORTCLOCK" VALUE="115200"/>
+     <PROPERTY NAME="UPLOADER" VALUE="ArduinoUnoR3.hex"/>
+    </PROGRAMMER>
+   </PROJECT>
+   <EDITOR>
+    <FILE ACTIVE="1" NAME="ATmega328P/main.ino"/>
+   </EDITOR>
+  </WINDOW>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+ <MODULE name="ARES">
+  <editor scale="10" gridmajor="0" snaprange="0" zoom="10" snapidx="3" snap="0" metric="0" flipped="0" xcursor="0" gridminor="0" orgmode="0" gridmode="2">
+   <centre x="0" y="0"/>
+   <origin x="0" y="0"/>
+   <world y1="-12700000" x2="15240000" y2="12700000" x1="-15240000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="ISIS">
+  <editor scale="121" gridmajor="2540000" snaprange="127000" zoom="0" snapidx="2" snap="254000" metric="0" flipped="0" xcursor="0" gridminor="254000" orgmode="0" gridmode="2">
+   <centre x="0" y="0"/>
+   <origin x="0" y="0"/>
+   <world y1="-8890000" x2="12700000" y2="8890000" x1="-12700000"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMEDIT">
+  <EDITOR>
+   <FILE ACTIVE="1" NAME="ATmega328P/main.ino"/>
+  </EDITOR>
+ </MODULE>
+</WORKSPACE>
