@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Présentation du projet
+##  Présentation du projet
 
 Dans le cadre d'une unité de conditionnement industriel, ce projet vise à concevoir et programmer un **système de convoyage automatisé** (robot chariot) permettant de déplacer des pièces entre deux postes :
 
@@ -15,15 +15,15 @@ Un affichage indique en permanence la position et l'état du chariot tout au lon
 
 ---
 
-## 🎯 Fonctionnalités du robot
+## Fonctionnalités du robot
 
-- ✅ Déplacement automatique entre le point A et le point B
-- ✅ Affichage de l'état du robot sur un **afficheur LCD**
-- ✅ Signalisation de la position par un **signal sonore** (buzzer)
+- Déplacement automatique entre le point A et le point B
+- Affichage de l'état du robot sur un **afficheur LCD**
+- Signalisation de la position par un **signal sonore** (buzzer)
 
 ---
 
-## 🔌 Architecture matérielle
+## Architecture matérielle
 
 ### Principe de fonctionnement
 
@@ -41,7 +41,7 @@ Le chariot se déplace entre A et B. Les positions sont détectées par deux **c
 
 ---
 
-## 🗂️ Versions du projet
+## Versions du projet
 
 ### V1 — Cycle d'un aller-retour
 
@@ -165,12 +165,11 @@ Une fois la maquette numérique validée, le projet est réalisé sur les **mall
 |-------|-------|
 | [Arduino IDE](https://www.arduino.cc/en/software) | Programmation de la carte Arduino Uno |
 | [Proteus](https://www.labcenter.com/) | Simulation de la maquette numérique |
-| [TinkerCad](https://www.tinkercad.com/) | Simulation alternative en ligne |
-
+| [Arduino library] () | Différentes libraries nécessaires pour le programme |
 ---
 
 
-## 📝 Consignes de rendu
+## Consignes de rendu
 
 Le travail est à remettre sous forme d'un **dossier zippé** déposé sur Teams, comprenant :
 
