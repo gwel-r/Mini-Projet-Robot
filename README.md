@@ -159,7 +159,7 @@ Une fois la maquette numérique validée, le projet est réalisé sur les **mall
 
 ---
 
-## 🛠️ Outils & environnement
+## Outils & environnement
 
 | Outil | Usage |
 |-------|-------|
