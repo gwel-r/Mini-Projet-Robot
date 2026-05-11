@@ -1,4 +1,4 @@
-# 🤖 Robot Chariot — Programmation Arduino
+# Robot Chariot — Programmation Arduino
 
 > Mini-projet étape par étape pour apprendre à programmer en Arduino — 2025/2026
 
@@ -132,17 +132,20 @@ void son_FCY() {
 
 ---
 
-### Maquette du prototype physique
+### V4 — Maquette du prototype physique
 
 Une fois la maquette numérique validée, le projet est réalisé sur les **mallettes pédagogiques**.
 
-#### Détection sans contact des points A et B
+#### V5.1 — Détection sans contact des points A et B
 
 - Remplacement des fins de course par **2 capteurs à ultrasons** (arrêt à 10 cm des points A et B)
+  
+### V5.2 — Détection sans contact des points A et B avec un seul capteur ultrasson
+
 - Ajout d'un **servomoteur** pour orienter le capteur à 180° selon le sens de déplacement (un seul capteur suffisant)
 - Distance de détection : **15 cm**
 
-#### Déplacement sécurisé (zones sombres)
+#### V6 Déplacement sécurisé (zones sombres)
 
 - Une **LED de visualisation** s'allume automatiquement lorsque la luminosité ambiante est insuffisante
 - Son intensité est **inversement proportionnelle** à la lumière présente (plage : 0–300 lux)
@@ -166,28 +169,6 @@ Une fois la maquette numérique validée, le projet est réalisé sur les **mall
 
 ---
 
-## 📁 Structure du dépôt
-
-```
-📦 robot-chariot
- ┣ 📂 V1_aller_retour/
- ┃  ┗ 📄 chariot_V1.ino
- ┣ 📂 V2_repetition_cycles/
- ┃  ┗ 📄 chariot_V2.ino
- ┣ 📂 V3_1_signal_sonore/
- ┃  ┗ 📄 chariot_V3_1.ino
- ┣ 📂 V3_2_fonctions_sons/
- ┃  ┗ 📄 chariot_V3_2.ino
- ┣ 📂 Proteus/
- ┃  ┣ 📄 chariot_V1.pdsprj
- ┃  ┣ 📄 chariot_V2.pdsprj
- ┃  ┣ 📄 chariot_V3_1.pdsprj
- ┃  ┗ 📄 chariot_V3_2.pdsprj
- ┣ 📂 compte_rendu/
- ┗ 📄 README.md
-```
-
----
 
 ## 📝 Consignes de rendu
 
@@ -199,11 +180,10 @@ Le travail est à remettre sous forme d'un **dossier zippé** déposé sur Teams
   - `V2` — 3 cycles de convoyages
   - `V3.1` — Intégration de sons
   - `V3.2` — Création de fonctions
-
-> ⚠️ Veiller à réutiliser **le vocabulaire technique** de l'énoncé dans le compte rendu.
+  - `V5.1` — Détection sans contact des points A et B
+  - `V5.2` — Détection sans contact des points A et B avec un seul capteur ultrasson
+  - `V6` — Déplacement sécurisé (zones sombres)
 
 ---
 
-## 👥 Auteurs
-
-Projet réalisé par binôme — 2025/2026
+Projet réalisé par @Gwel  — 2025/2026
